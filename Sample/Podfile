@@ -1,0 +1,24 @@
+platform :ios, '8.0'
+
+workspace 'Sample.xcworkspace'
+xcodeproj 'Sample.xcodeproj'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Sample' do
+    pod 'EntypoSymbolObjC', :path => '../'
+end
+
+# Pods配下のプロジェクトのBuild Active Architecture OnlyをNOにする
+post_install do |installer|
+    # PodのBuildActiveArchitectureOnlyをNoに変更
+    installer.pods_project.build_configurations.each do |config|
+        config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+    end
+    # PodのBuildActiveArchitectureOnlyをすべてNoに変更
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+        end
+    end
+end
