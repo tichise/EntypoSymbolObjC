@@ -8,6 +8,12 @@ Icon font library for Objective C. Currently supports Entypo
 Entypoをシンボルフォントで呼び出せるObjectiveCライブラリです。
 
 #### Licence
+font used in this project
+
+Author of the font used in this  project: Entypo
+Link: http://www.entypo.com/
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 #### Examples
 
