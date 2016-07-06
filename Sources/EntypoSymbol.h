@@ -422,6 +422,6 @@ __unsafe_unretained NSString *thumbsUp;
 __unsafe_unretained NSString *user;
 __unsafe_unretained NSString *users;
 __unsafe_unretained NSString *vCard;
-__unsafe_unretained NSString *addUser
+__unsafe_unretained NSString *addUser;
 } EntypoIconCode;
 
