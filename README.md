@@ -22,7 +22,7 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 ```html
 #import "EntypoSymbol.h"
 
-EntypoSymbol *symbol = [EntypoSymbol iconWithCode:EntypoIconCode.home48px fontSize:30.f];
+EntypoSymbol *symbol = [EntypoSymbol iconWithCode:EntypoIconCode.behance fontSize:30.f];
 [symbol addAttribute:NSForegroundColorAttributeName value:[UIColor blackColor]];
 
 UIImage *image = [symbol image];
