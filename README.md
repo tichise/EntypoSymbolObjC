@@ -4,7 +4,7 @@
 <img src="https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/6377/_____.png" width="160px">
 
 Icon font library for Objective C. Currently supports Entypo.Swift version is [here](https://github.com/tichise/EntypoSymbol).
-Entypoをシンボルフォントで呼び出せるObjectiveCライブラリです。Swit版は[こちら]](https://github.com/tichise/EntypoSymbol)
+Entypoをシンボルフォントで呼び出せるObjectiveCライブラリです。Swit版は[こちら](https://github.com/tichise/EntypoSymbol)
 
 #### Licence
 font used in this project
