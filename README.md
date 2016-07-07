@@ -41,7 +41,5 @@ UIImage *image = [symbol image];
   - [MaterialDesignSymbolObjC](https://github.com/tichise/MaterialDesignSymbolObjC)
   - [EntypoSymboObjC](https://github.com/tichise/EntypoSymbolObjC)
 - Color Library
-  - Swift
-   - [MaterialDesignColor](https://github.com/tichise/MaterialDesignColor)
-  - ObjectiveC
-   - [MaterialDesignColorObjC](https://github.com/tichise/MaterialDesignColorObjC)
+  - [MaterialDesignColor](https://github.com/tichise/MaterialDesignColor) Swift
+  - [MaterialDesignColorObjC](https://github.com/tichise/MaterialDesignColorObjC) ObjectiveC
